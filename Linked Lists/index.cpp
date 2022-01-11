@@ -82,7 +82,7 @@ public:
         return i;
     }
 
-    void remove(int index) // This way of implementation has got more time complexity -> O(n)
+    void remove(int index)
     {
         if (length() == 0 || index > length() - 1)
         {
